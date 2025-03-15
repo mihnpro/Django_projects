@@ -1,0 +1,7 @@
+<!-- templates/home.html -->
+<h1>Homepage board messages</h1>
+<ul>
+    {% for posts in object_list %}
+        <li>{{ posts.text }}</li>
+    {% endfor %}
+</ul>
